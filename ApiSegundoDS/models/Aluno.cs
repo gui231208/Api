@@ -7,8 +7,8 @@
         public string? RMA { get; set; }
         public string? Pai { get; set; }
         public string? Mae { get; set; }
-        public Professor Professor { get; set; }
-        public Escola Escola { get; set; }
+        public int ProfessorId { get; set; }
+        public int EscolaId { get; set; }
 
     }
 }
